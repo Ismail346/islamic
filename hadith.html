@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأحاديث النبوية</title>
+    <style>
+        /* إعدادات عامة */
+        body {
+            font-family: 'Amiri', serif;
+            margin: 0;
+            padding: 0;
+            background: url('hadith-background.jpg') no-repeat center center/cover;
+            color: #ffffff;
+            direction: rtl;
+        }
+
+        /* تصميم القائمة الجانبية */
+        .sidebar {
+            width: 250px;
+            height: 100%;
+            background: rgb(75, 75, 75);
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding-top: 20px;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.555);
+        }
+
+        .sidebar a {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 18px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            transition: background 0.3s;
+        }
+
+        .sidebar a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* تصميم المحتوى */
+        .content {
+            margin-right: 270px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content h1 {
+            margin-bottom: 30px;
+            font-size: 36px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .hadith {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            width: 80%;
+        }
+
+        .hadith p {
+            font-size: 20px;
+            margin: 0;
+            line-height: 1.8;
+        }
+
+        .narrator {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #cccccc;
+        }
+
+        /* تنسيق روابط النص */
+        a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<!-- زر القائمة -->
+<input type="checkbox" id="menu-toggle" class="menu-checkbox">
+<label for="menu-toggle" class="menu-toggle">☰</label>
+
+  
+    
+    <!-- القائمة الجانبية -->
+    <div class="sidebar">
+        <a href="index.html">الرئيسية</a>
+        <a href="hadith.html">الأحاديث</a>
+        <a href="about.html">حول</a>
+        <a href="videos.html">فيديوهات دينية</a>
+    </div>
+    
+
+    <!-- المحتوى الرئيسي -->
+    <div class="content">
+        <h1>الأحاديث النبوية</h1>
+
+        <div class="hadith">
+            <p>"إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى..."</p>
+            <div class="narrator">- رواه عمر بن الخطاب رضي الله عنه</div>
+        </div>
+
+        <div class="hadith">
+            <p>"مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ طَرِيقًا إِلَى الْجَنَّةِ..."</p>
+            <div class="narrator">- رواه أبو هريرة رضي الله عنه</div>
+        </div>
+
+        <div class="hadith">
+            <p>"لا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ..."</p>
+            <div class="narrator">- رواه أنس بن مالك رضي الله عنه</div>
+        </div>
+        
+
+
+
+
+
+
+          
+            
+          
+            
+          
+            <div class="hadith">
+              <p>"لَا تَحَاسَدُوا، وَلَا تَبَاغَضُوا، وَلَا تَدَابَرُوا، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا..."</p>
+              <div class="narrator">رواه البخاري</div>
+            </div>
+          
+            <div class="hadith">
+              <p>"مَنْ لَا يَرْحَمُ النَّاسَ لَا يَرْحَمْهُ اللَّهُ..."</p>
+              <div class="narrator">رواه الترمذي</div>
+            </div>
+          
+            <div class="hadith">
+              <p>"خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ..."</p>
+              <div class="narrator">رواه البخاري</div>
+            </div>
+          
+            <div class="hadith">
+              <p>"إِنَّ أَحَبَّ الْأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِنْ قَلَّتْ..."</p>
+              <div class="narrator">رواه البخاري ومسلم</div>
+            </div>
+          
+            <div class="hadith">
+              <p>"الدُّنْيَا مَزْرَعَةُ الْآخِرَةِ..."</p>
+              <div class="narrator">حديث حسن</div>
+            </div>
+          
+            <div class="hadith">
+              <p>"لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى أَكُونَ أَحَبَّ إِلَيْهِ مِنْ وَلَدِهِ وَوَالِدِهِ وَالنَّاسِ أَجْمَعِينَ..."</p>
+              <div class="narrator">رواه البخاري ومسلم</div>
+            </div>
+          </div>
+          
+    </div>
+    <div class="sidebar">
+        <img src="images/logo.png" alt="Logo" class="sidebar-logo"> <!-- الشعار -->
+        <a href="index.html">
+            <img src="images/home-icon.png" alt="الرئيسية" class="icon"> الرئيسية
+        </a>
+        <a href="hadith.html">
+            <img src="images/hadith-icon.png" alt="الأحاديث" class="icon"> الأحاديث
+        </a>
+        <a href="videos.html">
+            <img src="images/videos-icon.png" alt="فيديوهات دينية" class="icon"> فيديوهات دينية
+        </a>
+        <a href="about.html">
+            <img src="images/about-icon.png" alt="حول" class="icon"> حول
+        </a>
+
+        
+    </div>
+    
+    
+    
+
+    
+</body>
+</html>
+
+

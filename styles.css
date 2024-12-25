@@ -1,0 +1,296 @@
+/* تنسيق عام للموقع */
+body {
+    font-family: 'Amiri', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+    direction: rtl;
+}
+
+/* تنسيق القائمة الجانبية */
+.sidebar {
+    width: 220px;
+    height: 100%;
+    background: #1e1e1e;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.452);
+}
+
+.sidebar a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.sidebar a:hover {
+    background: rgba(255, 255, 255, 0.205);
+    transform: scale(1.05);
+}
+
+/* تنسيق المحتوى العام */
+.content {
+    margin-right: 240px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* العناوين الرئيسية */
+.content h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+    color: #ffd700; /* لون ذهبي للعناوين */
+}
+
+/* النصوص */
+.content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* تصميم صفحة الأحاديث */
+.hadith {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    width: 80%;
+}
+
+.hadith p {
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.hadith .narrator {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #cccccc;
+}
+
+/* تصميم الصور */
+.content img {
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* خلفيات الصفحات */
+body.home {
+    background: url('images/home-background.jpg') no-repeat center center/cover;
+}
+
+body.hadith {
+    background: url('images/hadith-background.jpg') no-repeat center center/cover;
+}
+
+body.about {
+    background: url('images/about-background.jpg') no-repeat center center/cover;
+}
+
+/* تحسين الروابط */
+a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* القائمة الجانبية */
+.sidebar {
+    width: 220px;
+    height: 100%;
+    background: rgba(30, 30, 30, 0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    justify-content: center; /* جعل العناصر تُحاذى عموديًا في الوسط */
+    align-items: center; /* محاذاة العناصر أفقيًا في المنتصف */
+}
+
+/* الصورة */
+.sidebar-logo {
+    width: 100px; /* عرض الصورة */
+    height: auto; /* الحفاظ على النسبة الأصلية للصورة */
+    margin-bottom: 20px; /* مسافة بين الصورة وبقية العناصر */
+}
+
+/* الروابط */
+.sidebar a {
+    display: block;
+    color: #ffd700;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* تأثير عند التمرير على الروابط */
+.sidebar a:hover {
+    background: rgba(255, 215, 0, 0.2);
+    color: #fff;
+}
+
+
+/* الروابط في القائمة الجانبية */
+.sidebar a {
+    display: flex; /* جعل النص والصورة في صف واحد */
+    align-items: center; /* محاذاة النص والصورة عموديًا */
+    color: #ffd700;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* الأيقونات بجانب النص */
+.sidebar a .icon {
+    width: 20px; /* عرض الصورة */
+    height: 20px; /* ارتفاع الصورة */
+    margin-right: 10px; /* مسافة بين الصورة والنص */
+    filter: brightness(0.8); /* تحسين لون الصورة إذا لزم الأمر */
+}
+
+/* تأثير عند التمرير على الروابط */
+.sidebar a:hover {
+    background: rgba(255, 215, 0, 0.2);
+    color: #fff;
+}
+
+
+body {
+    font-family: 'Amiri', serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+}
+
+h1 {
+    font-size: 32px;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(1);
+}
+
+
+
+
+
+
+/* القاعدة الأساسية للقائمة الجانبية */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2d2f34;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: -250px; /* القائمة تكون مخفية */
+    padding-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* عندما يتم تفعيل الزر */
+.menu-checkbox:checked ~ .sidebar {
+    left: 0; /* القائمة تظهر */
+}
+
+/* تصميم زر القائمة */
+.menu-toggle {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #2d2f34;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* الزر يظهر فقط على الأجهزة الصغيرة */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+}
+
+/* إخفاء مربع الاختيار */
+.menu-checkbox {
+    display: none;
+}
+
+/* تنسيق الروابط داخل القائمة */
+.sidebar a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 90%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
